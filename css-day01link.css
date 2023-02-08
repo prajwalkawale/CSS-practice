@@ -1,0 +1,15 @@
+/*this is comment for describe following code is internal style  */
+h1 {
+    color: black;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+p {
+    color: maroon;
+    background-color: aqua;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+}
+/* Above code is describe the external style
