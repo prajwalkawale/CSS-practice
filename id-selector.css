@@ -1,0 +1,24 @@
+#uniqueheadline {
+    color: blueviolet;
+    background-color: chartreuse;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#uiquebody {
+    background-color: darkolivegreen;
+    font-size: x-large;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#uniqueparagraph {
+    color: gainsboro;
+    background-color:black;
+
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+
+
+}
