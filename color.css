@@ -1,0 +1,18 @@
+  body {
+            color: black;
+            background-color: rgba(128, 255, 0, 0.773);
+            text-align: center;
+        }
+        h1 {
+            color: aqua;
+            background-color:rgba(165, 42, 42, 0.651);
+        }
+        h2 {
+            background-color: hsla(0, 68%, 42%, 0.768);
+        }
+        h3 {
+            background-color: rgba(100, 148, 237, 0.704);
+        }
+        p {
+            background-color: rgba(139, 0, 139, 0.727);
+        }
