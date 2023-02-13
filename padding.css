@@ -1,0 +1,13 @@
+h1 {
+    color: darkgoldenrod;
+    background-color:bisque;
+}
+/* it is for how our page responsive to the various devices */
+p {
+    padding: 10%;
+    border-style: dashed;
+
+}
+body {
+    background-color:chartreuse;
+}

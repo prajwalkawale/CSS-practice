@@ -1,0 +1,15 @@
+body {
+    background-color: chocolate;
+}
+p {
+    border: 2px solid black;
+}
+
+
+div {
+    
+    width:700px;
+    border: 20px solid blueviolet ;
+    padding: 50px;
+    margin:20px ;
+}
