@@ -1,5 +1,5 @@
 body {
-  background-color:cadetblue;
+  background-color: cadetblue;
 }
 
 .dashed {
@@ -21,16 +21,13 @@ body {
   font-size: x-large;
 }
 .line4 {
-  color: aqua;
-  text-align: center;
-  border-style: double;
-  font-size: x-large;
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
 }
 .line5 {
-  color:black;
+  color: black;
   text-align: center;
-  border-style: groove;
- outline-style:outset ;
-  font-size: x-large;
-  
+  outline: dotted red;
 }
