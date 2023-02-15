@@ -1,0 +1,8 @@
+P {
+margin: 100px;
+padding: 30px;
+  border-width: 100px;
+  border: 3px solid green;
+  /* This attribute and its value shows the text flow out of the border line */
+  white-space:nowrap;
+}
