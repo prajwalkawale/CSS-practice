@@ -1,0 +1,26 @@
+h1 {
+    background-color: #606363;
+  margin: 300px;
+  padding: 100px;
+  border: 2px solid blue;
+  outline: 2px solid red;
+  outline-offset: 15px;
+
+  text-transform: capitalize;
+  text-align: center;
+}
+.one {
+  text-transform: uppercase;
+  text-align: left;
+}
+.two {
+  text-transform: inherit;
+  text-align: right;
+}
+.three {
+  text-align: end;
+}
+.four {
+  text-align: unset;
+;
+}
