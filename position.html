@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in css</title>
+    <style>
+        .static {
+            position: static;
+            /* this position by defoult */
+            background-position: right;
+            /* due to static value the background attribute is not applicable on our web page*/
+            border: 3px solid blue;
+            border-radius: 3px solid blue;
+        }
+
+        h1 {
+            background-color: chocolate;
+        }
+
+        div.relative {
+            position: relative;
+            font-size: xx-large;
+            margin: 30px;
+            padding:30px;
+            width: 50%;
+            border: 2px solid black;
+            left: 300px;
+        }
+        div.fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 2px solid blue;
+        }
+        img.absolute {
+            position: absolute;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This headline for practice of positions in css</h1>
+    <div>
+        <p class="static">HTML elements are positioned static by default.
+
+            Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+            An element with position: static; is not positioned in any special way; it is always positioned according to
+            the
+            normal flow of the page: </p>
+    </div>
+    <p style="font-size: x-large;"> An element with position: relative; is positioned relative to its normal position
+    </p>
+
+    <div class="relative">Setting the top, right, bottom, and left properties of a relatively-positioned element will
+        cause it to be
+        adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the
+        element.
+        <div class="absolute"> <img src="./images/google-logo.png" width="100px" height="70px"></div>
+    </div>
+      > <img src="./images/google-logo.png">
+          <div class="fixed">An element with position: fixed; is positioned relative to the viewport, which means it always stays in the
+        same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the
+        element.
+    
+
+        A fixed element does not leave a gap in the page where it would normally have been located.
+
+    </div>
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+
+</html>
