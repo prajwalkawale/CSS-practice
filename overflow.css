@@ -1,0 +1,73 @@
+body {
+    background-color: rgba(128, 255, 0, 0.61);
+}
+
+
+
+div {
+    position:absolute;
+    top:0%;
+    left: 50%;
+    top: 0%;
+    overflow: visible;
+    padding: 2px;
+    border: 2px solid red;
+    width: 200px;
+    height: 50px;
+   
+}
+
+.hidden {
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    overflow: hidden;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+}
+#one {
+    position: absolute;
+    top: 30%;
+}
+.scroll {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    overflow:scroll;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+}
+#two {
+    position: absolute;
+    top: 40%;
+}
+
+.auto {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    overflow:auto;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+}
+#three {
+    position: absolute;
+    top: 50%;
+}
+ .xandy {
+    position:absolute;
+    top: 40%;
+    left: 175%;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+}
