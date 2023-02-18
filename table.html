@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in css</title>
+    <style>
+        .candidate {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .candidate tr,
+        .candidate th {
+            background-color: blueviolet;
+            border: 2px solid black;
+            padding: 11px;
+            text-align: center;
+        }
+
+        .candidate tr:nth-child(even) {
+            background-color: chartreuse;
+        }
+        .candidate tr:hover{background-color: rgba(188, 143, 143, 0.742);}
+        .candidate th {
+            background-color: darkgreen;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is headline for tables</h2>
+    <table class="candidate">
+        <tr>
+            <th>name</th>
+            <th>proffesion</th>
+            <th>contact</th>
+        </tr>
+        <tr>
+            <td>clay</td>
+            <td>student</td>
+            <td>456</td>
+        </tr>
+        <tr>
+            <td>barise</td>
+            <td>student</td>
+            <td>45622</td>
+
+        </tr>
+        <tr>
+            <td>alice</td>
+            <td>student</td>
+            <td>551262</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>proffesion</td>
+            <td>contact</td>
+        </tr>
+        <tr>
+            <td>clay</td>
+            <td>student</td>
+            <td>456</td>
+        </tr>
+    </table>
+</body>
+
+</html>
