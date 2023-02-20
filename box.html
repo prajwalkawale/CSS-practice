@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box in html</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box {
+        float: left;
+        padding: 50px;
+        width: 200px;
+        }
+        .clearfix {
+            display: table;
+            content: "";
+            clear: both;
+
+        }
+        #center {
+            text-align: center;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h2>this is headline</h2>
+    <div class="clearfix">
+
+        <div class="box" style="background-color: aqua;border: 2px solid black;"> this is content</div>
+        <div class="box" style="background-color: blueviolet; border: 2px solid black;"> this is content</div>
+        <div class="box" style="background-color: cadetblue; border: 2px solid black"> this is content</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="center"> this is headline</h1>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators in html</title>
+    <style>
+        /* decendant selector 
+        div p {
+            background-color: yellow;
+            border: 2px solid red;
+        } */
+        
+
+        /* child selector
+        div>p {
+            background-color: yellow;
+        } */ 
+
+
+         /* adjesent sibling selector 
+         div + p {
+            background-color: yellow;
+        } */
+
+        
+        /* general sibling selector */
+        div~p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Descendant Selector</h2>
+    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+    <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section>
+            <p>Paragraph 3 in the div.</p>
+        </section>
+    </div>
+    <p>Paragraph 4. Not in a div.</p>
+    <code> this is code </code>
+    <p>Paragraph 5. Not in a div.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+
+</html>
