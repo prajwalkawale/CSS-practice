@@ -1,0 +1,15 @@
+
+.demo1{
+    color: white;
+    background-color: crimson;
+    text-decoration: overline solid orange;
+}
+#box{
+    background-color: chocolate;
+    border: 2px solid black;
+    width: 500px;
+}
+
+button{
+    color: green;
+}
