@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+    width:auto;
+    border: 2px solid black;
+}
+
+@media (min-width:600px) and (max-width:800px){
+    div{
+        background-color:blue;
+        width: auto;
+    }
+}
+
+@media (min-width:200px) and (max-width:599.20px){
+    div{
+        background-color: red;
+        width: auto;
+    }
+}
+
+@media (min-width:1px) and (max-width:100px){
+    div{
+        background-color: chartreuse;
+        width: auto;
+    }
+}
+
+@media (min-width:100.20px) and (max-width:199.20px){
+    div{
+        background-color: indigo;
+        width: auto;
+    }
+}
+
+@media (min-width:800.20px) and (max-width:1300px){
+    div{
+        background-color: darkslategrey;
+        width: auto;
+    }
+}
